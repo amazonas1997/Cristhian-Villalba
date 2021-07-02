@@ -1,0 +1,92 @@
+body{
+
+}
+.encabezado{
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align:center;
+	background: deepskyblue;
+	color: white;
+	padding: 1em;
+	border-radius: 20px
+}
+
+.barra-de-navegacion{
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 1em;
+	padding-right: 2em;
+	padding-left: 2em;
+	background-color: #333;
+
+}
+
+.barra-de-navegacion ul {
+    list-style-type: none;
+    margin-left: 1em;
+	margin-right: 1em;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.barra-de-navegacion li {
+    float: left;
+
+}
+
+.barra-de-navegacion li a {
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.barra-de-navegacion li a:hover {
+    background-color: #111;
+}
+
+.imagen-p{
+	margin-top: 1em;
+	text-align:center;
+}
+
+.parrfo-1{
+	margin-left: 4em;
+	margin-right: 4em;
+}
+
+.galeria-c{
+	margin-top: 2em;
+	padding-left: 5em;
+	display:block;
+}
+
+.video{
+	margin-top: 2em;
+	text-align:center;
+}
+
+div.galeria {
+	margin-left: 2em;
+	margin-right: 2em;
+
+    border: 1px solid #ccc;
+    float: left;
+    width: 25%;
+}	
+
+div.galeria:hover {
+    border: 1px solid #777;
+}
+
+div.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
